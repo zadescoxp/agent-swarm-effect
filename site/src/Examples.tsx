@@ -1,4 +1,4 @@
-import { Swarm, type SwarmHandle, type SwarmProps } from "agent-swarm";
+import { Swarm, type SwarmHandle, type SwarmProps } from "agent-swarm-effect";
 import { useRef, useState, type ReactNode } from "react";
 import { Code } from "./Code";
 

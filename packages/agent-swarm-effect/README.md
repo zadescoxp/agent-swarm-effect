@@ -1,23 +1,23 @@
-# agent-swarm
+# agent-swarm-effect
 
 Wrap any element and a swarm of cursor agents flies in to build it: one drags out the frame, a scan line sweeps it, another boxes each piece of text, and an I-beam types the text in, one character at a time. Then they leave.
 
 - **One component.** `<Swarm>` around anything. No setup.
 - **Real typing, real kerning.** Text is hidden with the CSS Custom Highlight API, not split into spans, so your type stays exactly as designed. Multi-line text types line by line.
 - **Light.** About 6 KB gzipped, zero dependencies. One shared canvas, and nothing runs while nothing is being built.
-- **Works anywhere.** React 17+, Next.js (ships with `"use client"`), Vite, or framework-free through `agent-swarm/vanilla`.
+- **Works anywhere.** React 17+, Next.js (ships with `"use client"`), Vite, or framework-free through `agent-swarm-effect/vanilla`.
 - **Polite.** The canvas is `aria-hidden` and ignores clicks, text stays in the DOM, and people who prefer reduced motion get the finished page right away.
 
 ## Install
 
 ```bash
-npm i agent-swarm
+npm i agent-swarm-effect
 ```
 
 ## Usage
 
 ```tsx
-import { Swarm } from "agent-swarm";
+import { Swarm } from "agent-swarm-effect";
 
 export default function Page() {
   return (
@@ -88,7 +88,7 @@ const swarm = useSwarm(ref, { speed: 1.5 });
 ### Vanilla JS
 
 ```js
-import { createSwarm } from "agent-swarm/vanilla";
+import { createSwarm } from "agent-swarm-effect/vanilla";
 
 const swarm = createSwarm(document.querySelector("main"), { selector: "section, h1, p" });
 swarm.destroy();

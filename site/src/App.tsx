@@ -1,4 +1,4 @@
-import { Swarm, useSwarm } from "agent-swarm";
+import { Swarm, useSwarm } from "agent-swarm-effect";
 import { useEffect, useRef, useState } from "react";
 import { Code, GitHubIcon } from "./Code";
 import Docs from "./Docs";
@@ -7,7 +7,7 @@ import Examples from "./Examples";
 export const REPO = "zadescoxp/agent-swarm-effect";
 export const REPO_URL = `https://github.com/${REPO}`;
 
-const QUICK = `import { Swarm } from "agent-swarm";
+const QUICK = `import { Swarm } from "agent-swarm-effect";
 
 export default function Page() {
   return (
@@ -102,7 +102,7 @@ function Hero() {
         </h1>
 
         <div className="meta meta-1" data-swarm="Meta">
-          <span>AGENT-SWARM</span>
+          <span>AGENT-SWARM-EFFECT</span>
           <span>REACT COMPONENT</span>
         </div>
         <div className="meta meta-2" data-swarm="Meta">
@@ -146,7 +146,7 @@ function Hero() {
         <div className="panel" data-swarm="Panel">
           <div className="panel-top">
             <span>STARTING ;</span>
-            <span>npm i agent-swarm</span>
+            <span>npm i agent-swarm-effect</span>
           </div>
           <p className="panel-copy">
             Swarm, a crew for every element. Wrap anything, and cursor agents fly in to drag out its frame, sweep it with
@@ -225,7 +225,7 @@ function Section({ id, num, title, kicker, children }: { id: string; num: string
 
 function Install() {
   const [copied, setCopied] = useState(false);
-  const cmd = "npm i agent-swarm";
+  const cmd = "npm i agent-swarm-effect";
   return (
     <Section id="install" num="01" title="Install" kicker="One package. No dependencies. React is optional: there is a framework-free core too.">
       <div className="install">
@@ -244,9 +244,9 @@ function Install() {
           <span className="install-copy">{copied ? "copied" : "copy"}</span>
         </button>
         <div className="install-alts">
-          <code>pnpm add agent-swarm</code>
-          <code>yarn add agent-swarm</code>
-          <code>bun add agent-swarm</code>
+          <code>pnpm add agent-swarm-effect</code>
+          <code>yarn add agent-swarm-effect</code>
+          <code>bun add agent-swarm-effect</code>
         </div>
       </div>
       <div className="quick">
@@ -290,12 +290,12 @@ function Footer() {
           <a className="footer-link" href={`${REPO_URL}/issues`} target="_blank" rel="noopener noreferrer">
             Report an issue ↗
           </a>
-          <a className="footer-link" href="https://www.npmjs.com/package/agent-swarm" target="_blank" rel="noopener noreferrer">
+          <a className="footer-link" href="https://www.npmjs.com/package/agent-swarm-effect" target="_blank" rel="noopener noreferrer">
             npm ↗
           </a>
         </div>
         <div className="footer-base" data-swarm="Credit">
-          <span>agent-swarm</span>
+          <span>agent-swarm-effect</span>
           <span>
             Made by{" "}
             <a href="https://zadescoxp.com" target="_blank" rel="noopener noreferrer">

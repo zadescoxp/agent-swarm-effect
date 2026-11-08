@@ -24,7 +24,7 @@ const attrs: [string, string][] = [
   ['data-swarm-state', "Set by the library: pending, built, done. Style against it if you like."],
 ];
 
-const REF = `import { Swarm, type SwarmHandle } from "agent-swarm";
+const REF = `import { Swarm, type SwarmHandle } from "agent-swarm-effect";
 
 const swarm = useRef<SwarmHandle>(null);
 
@@ -36,7 +36,7 @@ swarm.current?.play();    // start a manual swarm
 swarm.current?.replay();  // hide everything and build it again
 swarm.current?.reveal();  // skip to the end`;
 
-const HOOK = `import { useSwarm } from "agent-swarm";
+const HOOK = `import { useSwarm } from "agent-swarm-effect";
 
 function Card() {
   const ref = useRef<HTMLDivElement>(null);
@@ -49,7 +49,7 @@ function Card() {
   );
 }`;
 
-const VANILLA = `import { createSwarm } from "agent-swarm/vanilla";
+const VANILLA = `import { createSwarm } from "agent-swarm-effect/vanilla";
 
 const swarm = createSwarm(document.querySelector("main"), {
   selector: "section, h1, p",
@@ -61,8 +61,8 @@ const swarm = createSwarm(document.querySelector("main"), {
 swarm.destroy();`;
 
 const NEXT = `// app/page.tsx — Server Components are fine.
-// agent-swarm ships with "use client" already.
-import { Swarm } from "agent-swarm";
+// agent-swarm-effect ships with "use client" already.
+import { Swarm } from "agent-swarm-effect";
 
 export default function Page() {
   return (
@@ -146,7 +146,7 @@ export default function Docs() {
           Vanilla JS
         </h3>
         <p className="docs-p">
-          The core has no framework in it. Import from <code>agent-swarm/vanilla</code> and point it at any element. Works with
+          The core has no framework in it. Import from <code>agent-swarm-effect/vanilla</code> and point it at any element. Works with
           Vue, Svelte, Astro or a plain HTML page.
         </p>
         <Code code={VANILLA} label="js" />

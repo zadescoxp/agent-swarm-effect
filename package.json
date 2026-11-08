@@ -3,8 +3,8 @@
   "private": true,
   "workspaces": ["packages/*", "site"],
   "scripts": {
-    "build": "npm run build -w agent-swarm && npm run build -w site",
-    "dev": "npm run build -w agent-swarm && npm run dev -w site",
-    "typecheck": "npm run typecheck -w agent-swarm"
+    "build": "npm run build -w agent-swarm-effect && npm run build -w site",
+    "dev": "npm run build -w agent-swarm-effect && npm run dev -w site",
+    "typecheck": "npm run typecheck -w agent-swarm-effect"
   }
 }

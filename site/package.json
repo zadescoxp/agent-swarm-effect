@@ -8,7 +8,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "agent-swarm": "*",
+    "agent-swarm-effect": "*",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "sugar-high": "^0.9.3"
