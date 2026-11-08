@@ -51,7 +51,7 @@ export function StarButton({ big = false }: { big?: boolean }) {
 function CursorArt() {
   const arrow = "M0 0 L90 54 L50 64 L28 106 Z";
   return (
-    <svg className="cursor-art" viewBox="0 0 520 300" aria-hidden="true">
+    <svg className="cursor-art" viewBox="0 0 590 310" overflow="visible" aria-hidden="true">
       {[0, 1, 2, 3].map((i) => (
         <g key={i} transform={`translate(${40 + i * 92} ${20 + i * 6}) scale(2.35) rotate(-8)`}>
           <path d={arrow} className="cursor-art-path" vectorEffect="non-scaling-stroke" />

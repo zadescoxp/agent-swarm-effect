@@ -355,7 +355,8 @@ pre {
   z-index: 2;
   top: 40%;
   left: 31%;
-  width: min(40vw, 700px);
+  width: min(43vw, 750px);
+  overflow: visible;
   pointer-events: none;
 }
 

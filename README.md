@@ -1,6 +1,10 @@
 # Swarm
 
-A crew of cursor agents for every element. This repo holds:
+A crew of cursor agents for every element.
+
+Website: https://zadescoxp.github.io/agent-swarm-effect/ · npm: [`agent-swarm-effect`](https://www.npmjs.com/package/agent-swarm-effect)
+
+This repo holds:
 
 - [`packages/agent-swarm-effect`](packages/agent-swarm-effect): the npm package (React component, hook and framework-free core).
 - [`site`](site): the docs and examples website (Vite + React).
@@ -10,6 +14,8 @@ npm install
 npm run dev      # builds the package, then starts the site on http://localhost:5178
 npm run build    # production build of both
 ```
+
+The site deploys to GitHub Pages on every push to `main` (`.github/workflows/pages.yml`).
 
 ## Publishing to npm
 
