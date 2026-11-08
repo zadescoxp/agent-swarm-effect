@@ -1,0 +1,10 @@
+{
+  "name": "agent-swarm-monorepo",
+  "private": true,
+  "workspaces": ["packages/*", "site"],
+  "scripts": {
+    "build": "npm run build -w agent-swarm && npm run build -w site",
+    "dev": "npm run build -w agent-swarm && npm run dev -w site",
+    "typecheck": "npm run typecheck -w agent-swarm"
+  }
+}
