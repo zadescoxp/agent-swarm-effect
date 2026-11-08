@@ -1,5 +1,12 @@
 # agent-swarm-effect
 
+[![npm version](https://img.shields.io/npm/v/agent-swarm-effect?color=1b3dff&label=npm)](https://www.npmjs.com/package/agent-swarm-effect)
+[![npm downloads](https://img.shields.io/npm/dm/agent-swarm-effect?color=1b3dff)](https://www.npmjs.com/package/agent-swarm-effect)
+[![minzipped size](https://img.shields.io/bundlephobia/minzip/agent-swarm-effect?color=1b3dff&label=size)](https://bundlephobia.com/package/agent-swarm-effect)
+[![license](https://img.shields.io/npm/l/agent-swarm-effect?color=1b3dff)](https://github.com/zadescoxp/agent-swarm-effect/blob/main/LICENSE)
+
+**[Website and live examples](https://zadescoxp.github.io/agent-swarm-effect/)** · **[GitHub](https://github.com/zadescoxp/agent-swarm-effect)**
+
 Wrap any element and a swarm of cursor agents flies in to build it: one drags out the frame, a scan line sweeps it, another boxes each piece of text, and an I-beam types the text in, one character at a time. Then they leave.
 
 - **One component.** `<Swarm>` around anything. No setup.

@@ -1,5 +1,11 @@
 # Swarm
 
+[![npm version](https://img.shields.io/npm/v/agent-swarm-effect?color=1b3dff&label=npm)](https://www.npmjs.com/package/agent-swarm-effect)
+[![npm downloads](https://img.shields.io/npm/dm/agent-swarm-effect?color=1b3dff)](https://www.npmjs.com/package/agent-swarm-effect)
+[![minzipped size](https://img.shields.io/bundlephobia/minzip/agent-swarm-effect?color=1b3dff&label=size)](https://bundlephobia.com/package/agent-swarm-effect)
+[![license](https://img.shields.io/npm/l/agent-swarm-effect?color=1b3dff)](LICENSE)
+[![deploy site](https://github.com/zadescoxp/agent-swarm-effect/actions/workflows/pages.yml/badge.svg)](https://zadescoxp.github.io/agent-swarm-effect/)
+
 A crew of cursor agents for every element.
 
 Website: https://zadescoxp.github.io/agent-swarm-effect/ · npm: [`agent-swarm-effect`](https://www.npmjs.com/package/agent-swarm-effect)
