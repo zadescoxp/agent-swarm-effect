@@ -1,6 +1,6 @@
 {
   "name": "agent-swarm-effect",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Wrap any element and watch a swarm of cursor agents draw its frame and type its text in. React component + framework-free core.",
   "keywords": [
     "react",
