@@ -2,7 +2,7 @@
 
 [![npm version](https://img.shields.io/npm/v/agent-swarm-effect?color=1b3dff&label=npm)](https://www.npmjs.com/package/agent-swarm-effect)
 [![npm downloads](https://img.shields.io/npm/dm/agent-swarm-effect?color=1b3dff)](https://www.npmjs.com/package/agent-swarm-effect)
-[![minzipped size](https://img.shields.io/bundlephobia/minzip/agent-swarm-effect?color=1b3dff&label=size)](https://bundlephobia.com/package/agent-swarm-effect)
+[![gzipped size](https://img.shields.io/badge/gzipped-6%20kB-1b3dff)](https://www.npmjs.com/package/agent-swarm-effect?activeTab=code)
 [![license](https://img.shields.io/npm/l/agent-swarm-effect?color=1b3dff)](https://github.com/zadescoxp/agent-swarm-effect/blob/main/LICENSE)
 
 **[Website and live examples](https://zadescoxp.github.io/agent-swarm-effect/)** · **[GitHub](https://github.com/zadescoxp/agent-swarm-effect)**
